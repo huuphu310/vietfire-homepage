@@ -55,7 +55,7 @@ if(document.getElementsByClassName('tiny-single-item').length > 0) {
         speed: 400,
         gutter: 16,
     });
-};
+}
 
 if(document.getElementsByClassName('tiny-one-item').length > 0) {
     var slider = tns({
@@ -74,7 +74,7 @@ if(document.getElementsByClassName('tiny-one-item').length > 0) {
         speed: 400,
         gutter: 0,
     });
-};
+}
 
 if(document.getElementsByClassName('tiny-two-item').length > 0) {
     var slider = tns({
@@ -97,7 +97,7 @@ if(document.getElementsByClassName('tiny-two-item').length > 0) {
             },
         },
     });
-};
+}
 
 if(document.getElementsByClassName('tiny-three-item').length > 0) {
     var slider = tns({
@@ -126,7 +126,7 @@ if(document.getElementsByClassName('tiny-three-item').length > 0) {
             },
         },
     });
-};
+}
 
 if(document.getElementsByClassName('tiny-three-item-icon').length > 0) {
     var slider = tns({
@@ -157,7 +157,7 @@ if(document.getElementsByClassName('tiny-three-item-icon').length > 0) {
             },
         },
     });
-};
+}
 
 if(document.getElementsByClassName('tiny-six-item').length > 0) {
     var slider = tns({
@@ -192,7 +192,7 @@ if(document.getElementsByClassName('tiny-six-item').length > 0) {
             },
         },
     });
-};
+}
 
 if(document.getElementsByClassName('tiny-ten-item').length > 0) {
     var slider = tns({
@@ -227,7 +227,7 @@ if(document.getElementsByClassName('tiny-ten-item').length > 0) {
             },
         },
     });
-};
+}
 
 if(document.getElementsByClassName('tiny-twelve-item').length > 0) {
     var slider = tns({
@@ -262,7 +262,7 @@ if(document.getElementsByClassName('tiny-twelve-item').length > 0) {
             },
         },
     });
-};
+}
 
 if(document.getElementsByClassName('tiny-five-item').length > 0) {
     var slider = tns({
@@ -297,7 +297,7 @@ if(document.getElementsByClassName('tiny-five-item').length > 0) {
             },
         },
     });
-};
+}
 
 if(document.getElementsByClassName('tiny-home-slide-four').length > 0) {
     var slider = tns({
@@ -332,7 +332,7 @@ if(document.getElementsByClassName('tiny-home-slide-four').length > 0) {
             },
         },
     });
-};
+}
 
 //=========================================//
 /*            02) Swiper slider            */
@@ -783,7 +783,7 @@ try {
         css.type = "text/css";
         css.innerHTML = ".typewrite > .wrap { border-right: 0.08em solid transparent}";
         document.body.appendChild(css);
-    };
+    }
     window.onload(typewrite());
 } catch(err) {
 

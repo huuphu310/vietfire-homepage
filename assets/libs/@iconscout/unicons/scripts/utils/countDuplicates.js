@@ -17,7 +17,7 @@ const compressArray = original => {
     }
 
     if (myCount > 0) {
-      var a = new Object()
+      var a = {}
       a.value = original[i]
       a.count = myCount
       compressed.push(a)

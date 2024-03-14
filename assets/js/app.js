@@ -54,7 +54,7 @@ function toggleMenu() {
     } else {
         isOpen.style.display = "block";
     }
-};
+}
 /*********************/
 /*    Menu Active    */
 /*********************/
@@ -82,7 +82,7 @@ function getClosest(elem, selector) {
     }
     return null;
 
-};
+}
 
 function activateMenu() {
     var menuItems = document.getElementsByClassName("sub-menu-item");
@@ -198,7 +198,7 @@ function topFunction() {
 /*  Active Sidebar   */
 /*********************/
 (function () {
-    var current = location.pathname.substring(location.pathname.lastIndexOf('/') + 1);;
+    var current = location.pathname.substring(location.pathname.lastIndexOf('/') + 1);
     if (current === "") return;
     var menuItems = document.querySelectorAll('.sidebar-nav a');
     for (var i = 0, len = menuItems.length; i < len; i++) {
