@@ -100,7 +100,7 @@ function easy_background(selector, sld_args) {
 
     });
 
-  };
+  }
 
   slider();
 

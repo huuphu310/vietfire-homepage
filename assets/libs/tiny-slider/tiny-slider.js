@@ -26,7 +26,7 @@ function extend() {
         copy = obj[name];
 
         if (target === copy) {
-          continue;
+
         } else if (copy !== undefined) {
           target[name] = copy;
         }
@@ -640,7 +640,7 @@ var tns = function (options) {
           console.warn('Can\'t find', options[item]);
         }
 
-        return;
+
       }
     }
   }); // make sure at least 1 slide
