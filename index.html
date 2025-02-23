@@ -424,29 +424,12 @@
         <script src="assets/js/app.js"></script>
         <!-- JAVASCRIPTS -->
 
-<script>
- window.difyChatbotConfig = {
-  token: 'fU3NFY54OXSSfxRO',
-  baseUrl: 'https://dify.vietfire.net',
-    inputs: {
-        site_name: 'vietfire.net',
-    }
- }
-</script>
-<script
- src="http://dify.vietfire.net/embed.min.js"
- id="fU3NFY54OXSSfxRO"
- defer>
-</script>
-<style>
-  #dify-chatbot-bubble-button {
-    background-color: #1C64F2 !important;
-  }
-  #dify-chatbot-bubble-window {
-    width: 24rem !important;
-    height: 40rem !important;
-  }
-</style>
+    <script src="https://chatbot.yestourist.com/chatwidget.bundle.js"></script>
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            window.initChatWidget("https://chatbot.yestourist.com", "tourauct.com");
+        });
+    </script>
 
     </body>
 </html>
